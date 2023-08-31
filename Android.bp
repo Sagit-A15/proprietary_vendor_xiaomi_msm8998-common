@@ -280,3 +280,12 @@ install_symlink {
 	installed_location: "lib64/libq3dtools_esx.so",
 	symlink_target: "/vendor/lib64/egl/libq3dtools_esx.so",
 }
+
+prebuilt_etc_xml {
+	name: "vendor.qti.gnss@4.0-service",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
