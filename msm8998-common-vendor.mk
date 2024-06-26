@@ -613,9 +613,9 @@ PRODUCT_PACKAGES += \
     libqmi_cci \
     libqmi_common_so \
     libsdm-disp-vndapis \
-    SoterService \
     CneApp \
     IWlanService \
+    SoterService \
     TimeService \
     PowerOffAlarm \
     MotoDolbyV3 \
