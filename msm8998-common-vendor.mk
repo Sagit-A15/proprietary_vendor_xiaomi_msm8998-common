@@ -597,7 +597,7 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
-    android.hardware.drm@1.4-service.widevine
+    android.hardware.drm@1.4-service.widevine.xml
 
 PRODUCT_PACKAGES += \
     libimscamera_jni_libimscamera_jni_symlink64 \
